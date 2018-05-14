@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d6d6"
+    android:orientation="vertical"
+    tools:context=".manojkulkarni.firebasefinal.FinalProfile">
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="8dp"
+        android:elevation="5dp"
+        card_view:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Name"
+            android:id="@+id/Name"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact No"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/Contact"
+
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:id="@+id/addres"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Donate"
+            android:id="@+id/donate"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:id="@+id/bloodgroup"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:id="@+id/EditProfile"
+            android:gravity="center"
+
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="80dp"
+            />
+
+
+
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
